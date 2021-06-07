@@ -1,0 +1,30 @@
+@charset "UTF-8";
+html{
+  font-size: 100%;
+}
+
+body{
+background-color: #fffeee;
+}
+
+h1{
+  color: #0bd;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  font-family: "游ゴシック体", "Yu Gothic", "YuGothic", sans-serif;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
+  line-height: 1.7;
+}
+
+div p{
+  color: red;
+}
