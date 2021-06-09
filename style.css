@@ -52,12 +52,21 @@ h6{
 }
 
 p{
-  color: rgba(10, 130, 165, 5);
+  color: #999;
   font-size: 20px;
   font-weight: bold;
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
   line-height: 1.7;
   text-align: justify;
+}
+
+
+p.blue{
+  color: rgb(199, 40, 133);
+}
+
+#orange{
+  color: #fa2;
 }
 
 div p{
