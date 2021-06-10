@@ -77,7 +77,6 @@ div p{
 
 div{
   background: #70a2dc url(images/bg-airplane.jpg) no-repeat center bottom/cover;
-  height: 100vh;
 }
 
 ul{
@@ -87,4 +86,17 @@ list-style: square url(images/star.png) outside;
 ol{
   list-style-type: hiragana;
   list-style-position: inside;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  gap: 10px;
+}
+
+.item{
+  background: #0bd;
+  color: #fff;
+  padding: 10px;
 }
